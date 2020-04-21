@@ -8,8 +8,8 @@
 	<property name="report.junit.dir" location="${reports}/junit" />
 
 
-	<property name="checkstyle.home.dir" location="D:/Software/checkstyle-5.5" />	 
-	<property name="pmd.home.dir" value="D:/Software/pmd-bin-5.1.0" />
+	<property name="checkstyle.home.dir" location="D:/Software/checkstyle" />	 
+	<property name="pmd.home.dir" value="D:/Software/pmd-bin-5.1.0/pmd-bin-5.1.0" />
 	<property name="htm.dir" location="${basedir}/html" />
 	<property name="report.checkstyle.dir" location="${reports}/checkstyle" />
  	<property name="report.pmd.dir" location="${reports}/pmd" />	 
