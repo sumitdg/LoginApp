@@ -288,6 +288,7 @@ public class TestLoginServlet {
 			  when(request.getParameter("uPass")).thenReturn("tstPass");
 
 			  when(service.validateUser("ashok", "morYa")).thenReturn(true).thenReturn(false);
+			  when(service.validateUser("sumit", "Sumitdg")).thenReturn(true).thenReturn(false);
 			  
 			  try {
 				when(response.getWriter()).thenReturn(pw);
